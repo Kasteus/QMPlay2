@@ -33,7 +33,7 @@ public:
 private:
 	void paintEvent(QPaintEvent *);
 
-	void start(bool v = false, bool dontCheckRegion = false);
+	void start(bool v = false);
 	void stop();
 
 	QVector<float> spectrumData;

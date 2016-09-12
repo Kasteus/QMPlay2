@@ -131,7 +131,6 @@ private:
 	void mouseMoveEvent(QMouseEvent *);
 	void leaveEvent(QEvent *);
 	void closeEvent(QCloseEvent *);
-	void changeEvent(QEvent *);
 	void moveEvent(QMoveEvent *);
 	void showEvent(QShowEvent *);
 	void hideEvent(QHideEvent *);

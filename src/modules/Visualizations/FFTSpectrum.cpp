@@ -105,9 +105,9 @@ void FFTSpectrumW::paintEvent(QPaintEvent *)
 		tim.stop();
 }
 
-void FFTSpectrumW::start(bool v, bool dontCheckRegion)
+void FFTSpectrumW::start(bool v)
 {
-	if (v || (!dontCheckRegion && regionIsVisible()))
+	if (v || regionIsVisible())
 	{
 		fftSpectrum.soundBuffer(true);
 		tim.start(interval);

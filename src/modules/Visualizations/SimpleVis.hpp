@@ -35,7 +35,7 @@ private:
 	void paintEvent(QPaintEvent *);
 	void resizeEvent(QResizeEvent *);
 
-	void start(bool v = false, bool dontCheckRegion = false);
+	void start(bool v = false);
 	void stop();
 
 	QByteArray soundData;

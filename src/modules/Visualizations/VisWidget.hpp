@@ -41,7 +41,7 @@ protected:
 
 	bool regionIsVisible() const;
 
-	virtual void start(bool v, bool dontCheckRegion) = 0;
+	virtual void start(bool v) = 0;
 	virtual void stop() = 0;
 
 	QTimer tim;
