@@ -122,7 +122,6 @@ private:
 
 	void showToolBar(bool);
 	void hideDocks();
-	void restoreFocus();
 
 	inline bool isTrayVisible() const;
 
@@ -172,7 +171,6 @@ private:
 
 	SettingsWidget *settingsW;
 	AboutWidget *aboutW;
-	QWidget *lastFocusWidget;
 	bool isCompactView, wasShow, fullScreen, seekSFocus;
 
 #if !defined Q_OS_MAC && !defined Q_OS_ANDROID
